@@ -38,3 +38,4 @@ new_sqlite_classes = ["MetricsBroadcaster"]
 [dev]
 port = 8787
 local_protocol = "https"
+# Trigger the initial Cloudflare Workers Build after repository connection; no runtime effect.
